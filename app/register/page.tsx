@@ -141,7 +141,9 @@ export default function RegisterPage() {
       <div className="hidden lg:flex flex-col justify-between w-[380px] csa-hero-gradient p-10 relative overflow-hidden">
         <div className="relative z-10">
           <div className="flex items-center gap-3 mb-12">
-            <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center text-xl">🏛️</div>
+            <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center p-1">
+              <img src="/logo.png" alt="CSA" className="w-full h-full object-contain" />
+            </div>
             <span className="text-white font-bold text-2xl">CSA</span>
           </div>
           <h1 className="text-3xl font-bold text-white leading-tight mb-4">{t('title')}</h1>
@@ -167,7 +169,9 @@ export default function RegisterPage() {
         <div className="w-full max-w-md py-8">
           {/* Mobile header */}
           <div className="lg:hidden flex items-center gap-2 mb-6">
-            <div className="w-9 h-9 rounded-xl csa-hero-gradient flex items-center justify-center">🏛️</div>
+            <div className="w-9 h-9 rounded-xl csa-hero-gradient flex items-center justify-center p-1">
+              <img src="/logo.png" alt="CSA" className="w-full h-full object-contain" />
+            </div>
             <span className="font-bold text-xl text-slate-900 dark:text-white">CSA</span>
             <span className="ml-auto text-sm text-slate-500">Step {step} of 3</span>
           </div>

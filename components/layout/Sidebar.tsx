@@ -24,7 +24,9 @@ export default function Sidebar() {
         {!user && (
           <div className="csa-card overflow-hidden">
             <div className="csa-hero-gradient p-5">
-              <div className="text-3xl mb-2">🏛️</div>
+              <div className="w-12 h-12 mb-2">
+                <img src="/logo.png" alt="CSA" className="w-full h-full object-contain" />
+              </div>
               <h3 className="text-white font-bold text-base leading-tight">
                 {t('sidebar.joinCta.title')}
               </h3>

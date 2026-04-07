@@ -48,8 +48,8 @@ export default function RightPanel() {
         {!user && (
           <div className="csa-card p-5">
             <div className="flex items-center gap-2.5 mb-3">
-              <div className="w-8 h-8 rounded-lg csa-hero-gradient flex items-center justify-center">
-                <span className="text-sm">🏛️</span>
+              <div className="w-10 h-10 rounded-xl csa-hero-gradient flex items-center justify-center mb-3 shadow-md p-1.5">
+                <img src="/logo.png" alt="CSA" className="w-full h-full object-contain relative z-10" />
               </div>
               <div>
                 <h3 className="font-bold text-slate-900 dark:text-white text-sm">
